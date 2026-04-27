@@ -1,0 +1,14 @@
+[run]
+branch = True
+source =
+    booking_engine
+
+[report]
+show_missing = True
+skip_covered = False
+fail_under = 80
+precision = 2
+
+[html]
+directory = htmlcov
+title = Flight Booking Coverage Report

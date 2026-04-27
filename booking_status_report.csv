@@ -1,0 +1,11 @@
+booking_id,flight_id,user_id,seats_booked,booking_date,booking_status,error_message
+B001,F001,U001,2,2024-11-01,CONFIRMED,
+B002,F002,U002,1,2024-11-01,CONFIRMED,
+B003,F003,U003,3,2024-11-02,CONFIRMED,
+B004,F001,U004,200,2024-11-02,WAITLIST,Insufficient seats available
+B005,F004,U005,2,2024-11-03,CONFIRMED,
+B006,F005,U006,-1,2024-11-03,REJECTED,seats_booked must be greater than 0
+B007,F006,U007,1,2024-11-04,REJECTED,Flight does not exist
+B008,F002,U008,2,invalid_date,REJECTED,Invalid booking_date
+B009,F003,U009,1,2024-11-05,CONFIRMED,
+B010,F004,U010,4,2024-11-05,CONFIRMED,
