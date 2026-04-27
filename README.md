@@ -70,6 +70,12 @@ python -m coverage xml -o coverage.xml
 python -m coverage json -o coverage.json
 ```
 
+## Dashboard 
+
+```bash
+streamlit run app.py
+```
+
 Detailed outputs:
 - Terminal report with missing lines (`coverage report -m`)
 - Interactive HTML report at `htmlcov/index.html`
